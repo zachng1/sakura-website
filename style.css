@@ -59,10 +59,14 @@ img {
 }
 
 @media screen and (max-width: 640px) {
+    #nav-header {
+        position: fixed;
+        z-index: 1000;
+    }
     .nav-link{
         font-size: 5vw;
         text-decoration: none;
-        color: black;
+        color: white;
     }
     .img-cover {
         position: static;
